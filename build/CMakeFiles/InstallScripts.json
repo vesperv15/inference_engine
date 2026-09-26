@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/HP/Desktop/inference_engine/build/cmake_install.cmake",
+		"C:/Users/HP/Desktop/inference_engine/build/_deps/pybind11-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\HP\Desktop\inference_engine\build\_deps\pybind11-subbuild\CMakeFiles\a663891b735403d816aa08edefa44d96\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1CCB2AAF-1AE7-3329-8BF6-B3C6579FC645}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

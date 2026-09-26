@@ -1,0 +1,10 @@
+^C:\USERS\HP\DESKTOP\INFERENCE_ENGINE\BUILD\CMAKEFILES\2720E9A18E2B934D3A0CC6501C0B5D96\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/HP/Desktop/inference_engine -BC:/Users/HP/Desktop/inference_engine/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/HP/Desktop/inference_engine/build/InferenceEngine.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
