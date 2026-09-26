@@ -8,7 +8,7 @@ A lightweight, high-performance C++20 matrix operations engine focused on hardwa
 - **AVX2 SIMD Vectorization:** Exploits 256-bit Fused Multiply-Add (`_mm256_fmadd_ps`) intrinsics to process 8 single-precision float operations per cycle.
 - **Zero-Copy Pybind11 Bindings:** Exposes C++ tensor memory directly to Python via NumPy's Buffer Protocol without buffer copying or memory reallocation.
 
-##Build & Usage
+## Build & Usage
 
 - C++20 compliant compiler (MSVC, GCC, or Clang)
 - CMake 3.20+
